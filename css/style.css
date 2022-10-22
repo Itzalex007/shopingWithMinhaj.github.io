@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto:ital,wght@0,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto:ital,wght@0,100;1,300;1,400&display=swap');
+:root {
+    --main-bg-color: #b5206d;
+  }
+  
+*{margin: 0;
+padding: 0;}
+main{
+    background-color: honeydew;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height:10vhpx;
+    background-color: var(--main-bg-color);
+    font-family: 'Noto Sans', sans-serif;
+    /* overflow: hidden; */
+
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    min-height: calc(100vh - 58px - 12vh);
+
+}
+nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f4f3;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    background-color: #eff;
+    overflow:hidden;
+}
+.card{
+    max-width: 91vw;
+
+    margin: auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 10vw; */
+    margin: 0px 10px;
+}
+.card h2{
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    margin-left: 15px;
+    padding: 3px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border-radius: 3px;
+    border: 2px solid wheat;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: red;
+    font-style: oblique;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 40vw;
+    height: 19px;
+    border-radius: 5px;
+    margin-left: 83px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo img{
+    width: 110px;
+    border: solid black 3px;
+    margin-left: 5px;
+}
